@@ -7,12 +7,12 @@ case style violations are detected.
 
 Installation:
 
-1. Install the pep8 program: ```$ pip install pep8``` or ```easy_install pep8```
+1. Install the pep8 program: ```$ pip install pep8``` or ```$ easy_install pep8```
 2. Run ```$ pep8``` command to check that it insall correctly
 3. Clone project ```$ git clone git@github.com:helveticafire/pep8-git-hook.git```
 4. Add ```pre-commit``` to your python project folder
   * Make a symbolic link from the pep8-git-hook location to the git project location with
-    ```cd pep8-git-hook_project_location && ln -s pre-commit  your_project/.git/hooks/pre-commit``` 
+    ```$ cd pep8-git-hook_project_location && ln -s pre-commit  your_project/.git/hooks/pre-commit``` 
 5. Mark pre-commit executable: ```$ chmod +x your_project/.git/hooks/pre-commit```
 
 The hook can be overridden: ```$ git commit --no-verify```
